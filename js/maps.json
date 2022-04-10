@@ -1,0 +1,8 @@
+[
+  {
+    "Map":{"source":"assets/img/map.jpg","css":"map1","js":"Map1"}
+  },
+  {
+    "Map":{"source":"assets/img/sand.png","css":"map2","js":"Map2"}
+  }
+]

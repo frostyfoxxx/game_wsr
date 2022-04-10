@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Игра</title>
+  </head>
+  <body>
+    <div class="m_menu" id="menu">
+      <h1 class="main_header">Главное меню</h1>
+      <h2 class="select_map_header">Выберите карту</h2>
+      <div class="maps">
+        <img
+          src="/img/map.jpg"
+          id="map1"
+          class="map_item selected"
+          alt=""
+          width="300px"
+        />
+        <img
+          src="/img/sand.png"
+          id="map2"
+          class="map_item"
+          alt=""
+          width="300px"
+        />
+      </div>
+      <input
+        type="text"
+        id="nickname"
+        placeholder="Введите ваше имя"
+        required
+      />
+      <button class="start" id="start_game">Начать игру</button>
+    </div>
+    <canvas id="game" width="1920" height="1080"></canvas>
+    <script src="/js/game.js"></script>
+  </body>
+</html>
