@@ -23,8 +23,8 @@
 .m_menu {
     width: 800px;
     min-height: 400px;
-    background-color:rgba(134, 128, 128, 0.5);
-    margin: auto;
+    background-color:rgba(134, 128, 128, 0.8);
+    margin: 200px auto;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -37,7 +37,6 @@
 }
 .select_map_header {
     text-align: center;
-
 }
 
 #nickname {
